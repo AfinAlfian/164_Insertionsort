@@ -25,6 +25,10 @@ void input() {															//Prosedur untuk input
 		cin >> arr[i];													//Input dari pengguna
 	}
 }
+void insertionsort() {													//prosedur Insertionsort
+	int temp;															//Membuat variabel data temporer atau penyimpanan sementara
+	int i, j;															//Membuat variabel j sebagai penanda
+}
 int main() {
 
 }
