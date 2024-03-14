@@ -15,6 +15,16 @@ void input() {															//Prosedur untuk input
 			cout << "\nArray yang anda masukkan maksimal 20 elemen.\n";	//Menampilkan Pesan jika data lebih dari 20
 		}
 	}
+	cout << endl;														//Membuat jarak per baris program
+	cout << "=====================" << endl;							//Membuat tampilan susunan data elemen array
+	cout << "Masukkan Elemen Array" << endl;
+	cout << "=====================" << endl;
+
+	for (int i = 0; i < n; i++) {										//Looping dengan i dimulai dari 0 hingga n-1
+		cout << "Data ke-" << (i + 1) << ": ";							//Output ke layar
+		cin >> arr[i];													//Input dari pengguna
+	}
+}
 int main() {
 
 }
